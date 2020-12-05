@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "86979058531",
+    "firebase_url": "https://chawy-2dbff.firebaseio.com",
+    "project_id": "chawy-2dbff",
+    "storage_bucket": "chawy-2dbff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86979058531:android:e50ab84801bb92e6b0d156",
+        "android_client_info": {
+          "package_name": "com.luisgenesius.chawy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86979058531-e6vl5v7t5bpv9b2vj37ekq54d2si6ufl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2BvF13f7IWR0you4JCDQDNUrx-ZzQILE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86979058531-e6vl5v7t5bpv9b2vj37ekq54d2si6ufl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/messageRecyclerView"
+        android:layout_above="@id/messageLinearLayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/messageLinearLayout"
+        android:layout_alignParentBottom="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mediaRecyclerView"
+            android:scrollbars="horizontal"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_weight="0.65"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/messageEditText"
+                android:hint="Input the messages.."
+                android:layout_marginLeft="5dp"/>
+
+            <Button
+                android:layout_weight="0.15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addMediaButton"
+                android:background="@drawable/ic_action_image"
+                android:backgroundTint="@color/dark_blue"/>
+
+            <Button
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:id="@+id/sendMessageButton"
+                android:layout_marginRight="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
